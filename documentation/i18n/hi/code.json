@@ -1,0 +1,34 @@
+{
+  "theme.ErrorPageContent.title": {
+    "message": "इस पेज पर एक त्रुटि हुई है।",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.NotFound.title": {
+    "message": "पेज नहीं मिला",
+    "description": "The title of the 404 page"
+  },
+  "theme.NotFound.p1": {
+    "message": "हम वह सामग्री नहीं ढूंढ पाए जिसे आप खोज रहे हैं।",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "ऊपर वापस जाएं",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "होम",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} आइटम",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "ब्लॉग सूची नेविगेशन",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "ब्लॉग पोस्ट नेविगेशन",
+    "description": "The ARIA label for the blog posts pagination"
+  }
+}
