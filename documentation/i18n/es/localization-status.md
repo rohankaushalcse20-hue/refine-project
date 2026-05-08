@@ -1,20 +1,23 @@
 # Cobertura de localización en español
 
-Esta nota registra el alcance inicial de la localización al español.
+Esta nota registra la cobertura actual de la localización al español y las ampliaciones incorporadas en las últimas iteraciones.
 
 ## Incluido
 
 - Configuración del locale `es` en Docusaurus.
 - Mensajes básicos de UI del tema.
 - Páginas principales de primeros pasos.
-- Guías de conceptos, routing, data fetching, autenticación, autorización, formularios, tablas, notificaciones e i18n.
-- Introducción del tutorial.
+- Guías de conceptos sobre routing, data fetching, autenticación, autorización, formularios, tablas, notificaciones e i18n.
+- Guías adicionales sobre despliegue, bibliotecas UI y telemetría.
+- Introducción del tutorial y primer índice del tutorial esencial.
+- Páginas de ejemplos para Auth0, Google Auth, Hasura, Strapi v4, múltiples data providers, i18n y Ably.
 - READMEs en español para ejemplos de i18n y Material UI.
-- Resúmenes en español para paquetes principales.
+- Resúmenes en español para paquetes `core`, `simple-rest`, `cli`, `inferencer`, `graphql`, `hasura`, `medusa` y `strapi-v4`.
+- Índice en español de la lista de paquetes del ecosistema Refine.
 
 ## Pendiente
 
-- Traducir el resto de la referencia API.
-- Ampliar ejemplos por UI framework.
+- Traducir más guías de referencia avanzadas y páginas de API.
+- Ampliar la cobertura de ejemplos por framework UI y por proveedor backend.
 - Revisar capturas, metadatos SEO y textos largos en pantallas estrechas.
-- Validar la navegación completa del sitio en `es` durante el build de documentación.
+- Validar la navegación completa del sitio en `es` durante un build de documentación.
