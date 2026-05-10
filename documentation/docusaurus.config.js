@@ -40,7 +40,7 @@ const siteConfig = {
   baseUrl: "/",
   i18n: {
     defaultLocale: "en",
-    locales: ["en", "es", "ru", "hi", "de", "pt-BR"],
+    locales: ["en", "es", "ru", "hi", "de", "pt-BR", "ja"],
     localeConfigs: {
       de: {
         label: "Deutsch",
@@ -61,6 +61,11 @@ const siteConfig = {
         label: "Português (Brasil)",
         direction: "ltr",
         htmlLang: "pt-BR",
+      },
+      ja: {
+        label: "日本語",
+        direction: "ltr",
+        htmlLang: "ja-JP",
       },
       ru: {
         label: "Русский",
