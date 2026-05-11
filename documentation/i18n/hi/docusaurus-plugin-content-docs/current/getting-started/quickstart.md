@@ -1,35 +1,29 @@
 ---
-title: "Quick Start | Refine v5 के साथ शुरुआत"
-display_title: "Quick Start Guide"
-sidebar_label: "Quick Start Guide"
-description: "Browser scaffolder या CLI के साथ Refine v5 project शुरू करें और tutorial तक आगे बढ़ें।"
+title: "Quick Start Guide | Refine v5 में शुरुआत"
+display_title: "क्विक स्टार्ट गाइड"
+sidebar_label: "क्विक स्टार्ट गाइड"
+description: "Refine project जल्दी शुरू करने के लिए CLI और browser-based scaffolder का संक्षिप्त परिचय।"
 displayed_sidebar: mainSidebar
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-import { Playground } from "@site/src/components/playground";
+**Refine** किसी भी ऐसे environment में काम करता है जहां **React** चल सकता है, जैसे Vite, Next.js, Remix और CRA (Legacy)।
 
-**Refine** किसी भी ऐसे environment में काम करता है जहाँ **React** चल सकता है, जैसे Vite, Next.js, Remix और CRA.
+शुरुआत करने का सबसे आसान तरीका `create-refine-app` का उपयोग करना है। इससे आप अलग-अलग UI frameworks, data providers और auth flows के साथ नया project तुरंत bootstrap कर सकते हैं।
 
-पैकेज manually install किए जा सकते हैं, लेकिन शुरुआत के लिए सबसे अच्छा तरीका browser-based scaffolder या CLI-based scaffolder है। दोनों विकल्प framework, UI integration, data provider, authentication और i18n चुनने की सुविधा देते हैं।
-
-## CLI का उपयोग
-
-नई **Refine** app जल्दी शुरू करने के लिए `create-refine-app` चलाएँ:
+## CLI से शुरू करें
 
 ```sh
 npm create refine-app@latest
 ```
 
-CLI के prompts पूरे करें, बनी हुई directory में जाएँ, ज़रूरत पड़ने पर dependencies install करें और CLI द्वारा सुझाया गया dev server command चलाएँ।
+यह command interactive scaffolder खोलती है और आपके लिए project structure तैयार कर देती है।
 
-## Browser का उपयोग
+## Browser से शुरू करें
 
-Browser scaffolder वही मुख्य विकल्प देता है जो CLI देता है, और download से पहले preview भी दिखाता है।
+[Browser-based Scaffolder](https://refine.dev/?playground=true) वही विकल्प देता है जो CLI देता है, लेकिन download से पहले result preview करने की सुविधा भी देता है।
 
-<Playground />
+## आगे के चरण
 
-## आगे क्या करें
-
-[Tutorials](/core/tutorial) देखें, [real-life examples](/core/templates) खोलें, या [General Concepts](/core/docs/guides-concepts/general-concepts/) और [Data Fetching](/core/docs/guides-concepts/data-fetching/) guides से सीखना शुरू करें।
+- [Tutorials](/core/tutorial) के साथ example project को पूरी CRUD application में बदलें।
+- [Templates](/core/templates) में real-world examples देखें।
+- [General Concepts](/core/docs/guides-concepts/general-concepts/) और [Data Fetching](/core/docs/guides-concepts/data-fetching/) गाइड पढ़कर architecture समझें।
