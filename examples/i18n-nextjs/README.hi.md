@@ -4,11 +4,11 @@
 </a>
 </div>
 
-## Next.js के साथ i18n उदाहरण
+## Next.js के साथ i18n example
 
-यह उदाहरण दिखाता है कि **Refine**, Next.js और internationalization को कैसे जोड़ा जाए ताकि routes, rendering और content user की locale preference के अनुसार काम करें।
+यह example **Refine**, Next.js और internationalization को एक साथ जोड़ता है ताकि routes, rendering और content user की भाषा के अनुसार बदल सकें।
 
-## लोकल रूप से चलाएँ
+## लोकल मशीन पर चलाएं
 
 ```bash
 npm create refine-app@latest -- --example i18n-nextjs
@@ -16,9 +16,9 @@ npm create refine-app@latest -- --example i18n-nextjs
 
 ## मुख्य बिंदु
 
-- Next.js में locales की configuration.
-- `<Refine />` के साथ `i18nProvider` integration.
-- Navigation और CRUD actions का translation.
-- Next.js routing और rendering flow के साथ compatibility.
+- Next.js locales की configuration
+- `<Refine />` के साथ `i18nProvider` integration
+- navigation और CRUD actions के translated labels
+- Next.js routing और rendering model के साथ compatibility
 
-[i18n-nextjs उदाहरण खोलें](https://codesandbox.io/embed/github/refinedev/refine/tree/main/examples/i18n-nextjs?view=preview&theme=dark&codemirror=1)
+[i18n-nextjs example खोलें](https://codesandbox.io/embed/github/refinedev/refine/tree/main/examples/i18n-nextjs?view=preview&theme=dark&codemirror=1)
