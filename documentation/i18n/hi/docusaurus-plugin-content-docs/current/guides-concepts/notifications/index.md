@@ -1,25 +1,34 @@
 ---
-title: "Notifications | Refine v5"
+title: "Notifications गाइड | Refine v5"
 display_title: "Notifications"
 sidebar_label: "Notifications"
-description: "Refine notification provider के माध्यम से success और error messages दिखाएँ।"
+description: "Refine notificationProvider, automatic feedback और undoable flows का Hindi summary।"
 ---
 
-Notifications users को actions के परिणाम और errors दोनों समझाने में मदद करती हैं। Refine `notificationProvider` के ज़रिए hooks, mutations और components से messages दिखाता है।
+Notifications application में visual feedback देने का महत्वपूर्ण हिस्सा हैं। Refine data operations और auth flows के दौरान success, error और progress feedback दिखाने के लिए built-in notification integration देता है।
 
-## Notification provider
+## Notification Provider
 
-आमतौर पर provider `open` और कभी-कभी `close` methods देता है।
+Notification system enable करने के लिए `<Refine />` को `notificationProvider` दिया जाता है। इसमें सामान्यतः `open` और `close` methods होते हैं।
 
-```tsx
-const notificationProvider = {
-  open: ({ type, message, description }) => {
-    console.log(type, message, description);
-  },
-  close: (key) => console.log("close", key),
-};
+```ts
+interface NotificationProvider {
+  open: (params: OpenNotificationParams) => void;
+  close: (key: string) => void;
+}
 ```
 
-Ant Design, Material UI, Mantine और Chakra UI जैसी integrations अपनी notification systems को Refine से जोड़ सकती हैं।
+## Refine इसे कहां उपयोग करता है
 
-Localized app में titles और descriptions का translation करें, ताकि feedback target audience के लिए स्पष्ट रहे।
+- form submission success या error
+- create, update, delete, import और export actions
+- failed data fetching
+- login, logout, register और password flows
+
+## Built-in integrations
+
+Ant Design, Material UI, Mantine और Chakra UI के notification systems को `notificationProvider` के रूप में इस्तेमाल किया जा सकता है ताकि app का design language consistent रहे।
+
+## Undoable notifications
+
+Refine `progress` type के साथ undoable notifications भी support करता है। यह mutation को timeout window में cancel करने के लिए उपयोगी है।
