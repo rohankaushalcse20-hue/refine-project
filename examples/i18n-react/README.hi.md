@@ -4,21 +4,21 @@
 </a>
 </div>
 
-## React के साथ i18n उदाहरण
+## React के साथ i18n example
 
-यह उदाहरण दिखाता है कि **Refine** को React application में internationalization के साथ कैसे उपयोग करें। CRUD logic Refine में रहती है और translations एक उपयुक्त provider के माध्यम से जोड़ी जाती हैं।
+यह example दिखाता है कि **Refine** को React application में internationalization के साथ कैसे उपयोग किया जा सकता है। CRUD logic Refine संभालता है और translated UI text चुने गए i18n provider से आता है।
 
-## लोकल रूप से चलाएँ
+## लोकल मशीन पर चलाएं
 
 ```bash
 npm create refine-app@latest -- --example i18n-react
 ```
 
-## क्या जाँचें
+## क्या देखें
 
-- `i18nProvider` की configuration.
-- Interface में language switching.
-- Menus, actions और visible text का translation.
-- Code में resources, routes और APIs का unchanged रहना.
+- `i18nProvider` की configuration
+- UI से locale switch करना
+- menus, actions और visible labels का translation
+- code में resources, routes और API names को जस का तस रखना
 
-[i18n-react उदाहरण खोलें](https://codesandbox.io/embed/github/refinedev/refine/tree/main/examples/i18n-react?view=preview&theme=dark&codemirror=1)
+[i18n-react example खोलें](https://codesandbox.io/embed/github/refinedev/refine/tree/main/examples/i18n-react?view=preview&theme=dark&codemirror=1)
