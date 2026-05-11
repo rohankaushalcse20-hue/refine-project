@@ -1,6 +1,6 @@
 # Simple REST data provider
 
-`@refinedev/simple-rest` उन REST APIs के लिए data provider देता है जिनकी structure standard होती है। यह `json-server` शैली का पालन करता है और Refine resources को HTTP endpoints से जोड़ता है।
+`@refinedev/simple-rest` standard shape वाली REST APIs के लिए data provider देता है। यह `json-server` शैली के endpoints के साथ अच्छी तरह काम करता है और Refine resources को HTTP operations से जोड़ता है।
 
 ## Installation
 
@@ -20,4 +20,4 @@ const App = () => (
 );
 ```
 
-इस provider का उपयोग तब करें जब backend list, create, update और delete के लिए सरल REST endpoints expose करता हो। Custom headers या special params के लिए आप इसे wrap या extend कर सकते हैं।
+जब आपका backend list, create, update और delete के लिए सरल REST endpoints expose करता हो, तब यह provider अच्छा शुरुआती विकल्प है। जरूरत पड़ने पर आप इसे custom headers, params या auth logic के साथ wrap भी कर सकते हैं।
