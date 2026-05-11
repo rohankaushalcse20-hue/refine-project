@@ -1,30 +1,37 @@
 ---
-title: "Routing | Refine v5"
+title: "Routing गाइड | Refine v5"
 display_title: "Routing"
 sidebar_label: "Routing"
-description: "React Router, Next.js, Remix या किसी compatible system के साथ Refine routing सेट करें।"
+description: "Refine में router integrations, route definition और navigation patterns का परिचय।"
 ---
 
-Routing किसी भी CRUD application के लिए ज़रूरी है। Refine की headless architecture आपको किसी एक framework या router तक सीमित किए बिना अपनी पसंद का routing solution चुनने देती है।
+किसी भी CRUD application में routing केंद्रीय भूमिका निभाता है। Refine की headless architecture आपको किसी एक router तक सीमित नहीं करती, इसलिए आप अपनी पसंद का routing solution चुन सकते हैं।
 
-Refine **React Router**, **Next.js** और **Remix** के लिए built-in integrations देता है। ये integrations parameters को automatically detect करने, mutations या authentication के बाद redirects संभालने और navigation utilities उपयोग करने में मदद करती हैं।
+Refine आधिकारिक रूप से **React Router**, **Next.js** और **Remix** integrations देता है। इन integrations के साथ parameter detection, redirects और navigation helpers का उपयोग आसान हो जाता है।
 
-Refine router agnostic रहता है, इसलिए routes की परिभाषा आपको ही करनी होती है: React Router में `Routes`, Next.js में `pages` या `app`, और Remix में `app/routes`.
+## Router provider कैसे जोड़ें
 
-## Router provider जोड़ना
+Refine में routing enable करने के लिए चुना गया router integration import करें और उसे `<Refine />` के `routerProvider` prop में pass करें।
 
 ```tsx title="App.tsx"
-import { Refine } from "@refinedev/core";
-import routerProvider from "@refinedev/react-router";
 import { BrowserRouter, Routes } from "react-router";
+import routerProvider from "@refinedev/react-router";
 
-export const App = () => (
+const App = () => (
   <BrowserRouter>
     <Refine routerProvider={routerProvider}>
-      <Routes>{/* आपके routes */}</Routes>
+      <Routes>{/* Your route definitions */}</Routes>
     </Refine>
   </BrowserRouter>
 );
 ```
 
-Routes और resources को एक-दूसरे के अनुरूप रखें, ताकि `resource`, `id` और दूसरे parameters route से infer किए जा सकें।
+## क्या लाभ मिलते हैं
+
+- hooks और components में route parameters का बेहतर integration
+- mutation और auth flows के बाद automatic redirects
+- breadcrumbs और links जैसी navigation utilities
+
+## ध्यान रखने वाली बात
+
+Refine router-agnostic है, इसलिए actual route tree आपकी जिम्मेदारी रहती है। React Router में `Routes`, Next.js में `pages` या `app`, और Remix में `app/routes` structure define करना आपको ही करना होगा।
