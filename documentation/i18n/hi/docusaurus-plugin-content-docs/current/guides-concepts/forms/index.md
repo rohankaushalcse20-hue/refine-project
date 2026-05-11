@@ -1,27 +1,31 @@
 ---
-title: "Forms | Refine v5"
+title: "Forms गाइड | Refine v5"
 display_title: "Forms"
 sidebar_label: "Forms"
-description: "Refine, UI integrations और server validation के साथ CRUD forms बनाएँ।"
+description: "Refine में form handling, useForm और library integrations का Hindi overview।"
 ---
 
-Forms लगभग हर user-facing application का महत्वपूर्ण हिस्सा हैं। Refine ऐसे hooks और components देता है जो fields, data providers, validation और mutations को एक साथ जोड़ते हैं।
+Forms लगभग हर user-facing application का मुख्य हिस्सा होते हैं। Refine form workflows को सरल बनाने के लिए data fetching और mutations को एक structured pattern में जोड़ता है।
 
-## सामान्य तरीका
+## useForm क्या करता है
 
-आप Ant Design, Material UI, Mantine, Chakra UI या React Hook Form का उपयोग कर सकते हैं। Refine की logic UI से अलग रहती है, इसलिए product के अनुसार library चुनना आसान होता है।
+`useForm` hook internally `useOne`, `useCreate` और `useUpdate` जैसे hooks को orchestrate करता है।
 
-## Create और edit
+- edit या clone में existing record fetch किया जाता है
+- create flow में नया record submit किया जाता है
+- update flow में mutation trigger होती है
 
-`useForm`, `useModalForm`, `useDrawerForm` और `useStepsForm` create, edit और multi-step flows को संभालने में मदद करते हैं।
+इससे form state और server interaction को अलग-अलग manually wire करने की जरूरत कम हो जाती है।
 
-```tsx
-const { formProps, saveButtonProps } = useForm({
-  resource: "products",
-  action: "edit",
-});
-```
+## Library integrations
 
-## Relations और validation
+Refine का core `useForm` headless है, लेकिन इसे अलग-अलग libraries के साथ उपयोग किया जा सकता है:
 
-`useSelect` related resources से options लाता है। बेहतर multilingual अनुभव के लिए local validation, server errors और i18n-based messages को साथ में उपयोग करें।
+- `@refinedev/core`
+- `@refinedev/react-hook-form`
+- `@refinedev/antd`
+- Material UI, Mantine और दूसरी integrations
+
+## कब उपयोगी है
+
+`useForm` खास तौर पर तब मददगार है जब आपको CRUD forms, default values, save actions, loading states और validation-aware submit flows को एक consistent pattern में संभालना हो।
