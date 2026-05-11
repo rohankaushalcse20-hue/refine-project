@@ -1,25 +1,43 @@
 ---
-title: "Authorization | Refine v5"
+title: "Authorization गाइड | Refine v5"
 display_title: "Authorization"
 sidebar_label: "Authorization"
-description: "Access control provider के माध्यम से actions, routes और components पर permissions नियंत्रित करें।"
+description: "Refine में access control provider, useCan और CanAccess component की Hindi summary।"
 ---
 
-Authorization तय करता है कि authenticated user क्या कर सकता है। Refine में इसे `accessControlProvider` के माध्यम से मॉडल किया जाता है, जिसे hooks, buttons, menus और pages में उपयोग किया जा सकता है।
+Authorization यह तय करता है कि user किसी resource को देख सकता है या किसी action को चला सकता है या नहीं। Refine यह काम **Access Control Provider** के जरिए करता है।
 
-## Access control provider
+Refine RBAC, ABAC, ACL या किसी भी custom authorization strategy के साथ काम कर सकता है, बशर्ते आप provider को सही decision logic दें।
 
-इसका मुख्य method `can` है। यह resource, action और ज़रूरत पड़ने पर अतिरिक्त context लेता है, फिर access का फैसला लौटाता है।
+## Access Control Provider
 
-```tsx
-const accessControlProvider = {
-  can: async ({ resource, action }) => {
-    if (resource === "posts" && action === "delete") {
-      return { can: false, reason: "Only admins can delete posts" };
+Access control setup का मुख्य entry point `can` method है। Refine resource, action और params देकर पूछता है कि access दिया जाना चाहिए या नहीं।
+
+```tsx title="access-control-provider.ts"
+import { AccessControlProvider } from "@refinedev/core";
+
+export const accessControlProvider: AccessControlProvider = {
+  can: async ({ resource, action, params }) => {
+    if (meetSomeCondition) {
+      return { can: true };
     }
-    return { can: true };
+
+    return {
+      can: false,
+      reason: "Unauthorized",
+    };
   },
 };
 ```
 
-`useCan` UI को permissions के अनुसार adapt करने में मदद करता है, लेकिन अंतिम authorization check backend पर ही रहना चाहिए।
+## CanAccess component
+
+`CanAccess` component unauthorized users से pages या UI sections छिपाने के लिए उपयोगी है। यह internally provider के `can` method को call करता है।
+
+## useCan hook
+
+`useCan` hook imperatively access checks चलाने के लिए उपयोगी है। इसका उपयोग buttons, menu items, inline actions या custom views में किया जा सकता है।
+
+## UI integrations
+
+Refine की UI integrations access control results के आधार पर buttons, menu items और actions को hide या disable करने में मदद करती हैं। इससे UX और security दोनों consistent रहते हैं।
