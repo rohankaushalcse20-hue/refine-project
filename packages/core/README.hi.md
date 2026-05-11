@@ -1,22 +1,20 @@
 # Refine CORE
 
-**Refine CORE** CRUD-heavy web applications के लिए एक React meta-framework है। यह internal tools, admin panels, dashboards और B2B apps जैसी enterprise ज़रूरतों के लिए मज़बूत आधार देता है।
+**Refine CORE** CRUD-केंद्रित web applications के लिए React meta-framework है। यह internal tools, admin panels, dashboards और B2B apps के लिए headless foundation देता है।
 
-Refine CORE headless architecture प्रदान करता है: data logic, routing, authentication, authorization, notifications, state और i18n को visual layer से अलग रखा जाता है।
+Refine CORE business logic, data access, routing, auth, permissions, notifications, state और i18n को visual layer से अलग रखता है, इसलिए आप अपनी पसंद के UI framework के साथ काम कर सकते हैं।
 
-## नया project बनाएँ
+## नया project बनाएं
 
 ```sh
 npm create refine-app@latest my-refine-app
 ```
 
-## इसे क्यों चुनें
+## इसे क्यों उपयोग करें
 
-- किसी भी design system या UI framework के साथ काम कर सकता है।
-- Enterprise patterns के लिए hooks और providers पहले से उपलब्ध हैं।
-- REST, GraphQL और कई backend services के साथ integrate करता है।
-- Repetitive CRUD काम कम करता है, बिना app को fixed UI में बंद किए।
+- किसी भी design system या UI framework के साथ compatible
+- enterprise workflows के लिए hooks और providers
+- REST, GraphQL और कई backend services के साथ integration
+- repetitive CRUD setup को कम करता है, बिना fixed UI impose किए
 
-## Documentation
-
-Guides, tutorials और API reference के लिए Refine की मुख्य documentation देखें।
+Guides, tutorials और API reference के लिए मुख्य documentation देखें।
