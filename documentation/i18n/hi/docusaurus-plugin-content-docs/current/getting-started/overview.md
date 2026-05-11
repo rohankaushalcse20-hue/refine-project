@@ -1,37 +1,49 @@
 ---
-title: "Refine दस्तावेज़ | Refine v5 के लिए guides, tutorials और API reference"
+title: "Refine दस्तावेज़ | गाइड, ट्यूटोरियल और API रेफरेंस"
 display_title: "ओवरव्यू"
 sidebar_label: "ओवरव्यू"
-description: "Refine v5, उसकी मुख्य अवधारणाओं और React admin panels तथा internal tools के लिए उसके उपयोग को समझें।"
+description: "Refine v5 का परिचय, मुख्य अवधारणाएं और वे उपयोग-स्थितियां जिनमें यह React आधारित CRUD ऐप्स के लिए उपयोगी है।"
 slug: /
 displayed_sidebar: mainSidebar
 ---
 
 ## Refine क्या है?
 
-**Refine** CRUD-heavy web applications के लिए एक React meta-framework है। यह internal tools, admin panels, dashboards और B2B apps जैसे enterprise use cases के लिए उपयुक्त है।
+**Refine** एक React meta-framework है जो CRUD-केंद्रित वेब ऐप्स के लिए बनाया गया है। यह internal tools, admin panels, dashboards और B2B workflows जैसे enterprise use cases के लिए उपयुक्त है।
 
-Refine के core hooks और components विकास प्रक्रिया को तेज करते हैं। यह **authentication**, **access control**, **routing**, **networking**, **state management** और **i18n** जैसी ज़रूरी ज़िम्मेदारियों के लिए industry-standard patterns देता है।
+इसका core बार-बार दोहराए जाने वाले काम को कम करता है और **authentication**, **access control**, **routing**, **networking**, **state management** और **i18n** के लिए तैयार patterns देता है।
 
-इसकी headless architecture business logic को UI और routing से अलग रखती है। इसलिए आप इसे custom design systems, Tailwind CSS, Ant Design, Material UI, Mantine, Chakra UI, Next.js, Remix, React Native या Electron के साथ इस्तेमाल कर सकते हैं।
+Refine की headless architecture business logic को UI और routing से अलग रखती है। इसलिए आप Tailwind CSS, Ant Design, Material UI, Mantine, Chakra UI या अपने custom design system के साथ इसे जोड़ सकते हैं।
 
-## Refine क्यों?
+## Refine क्यों चुनें?
 
-Refine traditional “starting from scratch” development और low-code/no-code tools के बीच संतुलन बनाता है। यह open technologies की flexibility को बनाए रखते हुए conventions देता है, जिससे project delays, technical debt और maintenance friction कम होते हैं।
+Refine पूरी तरह शून्य से app बनाने और low-code/no-code tools अपनाने के बीच का व्यावहारिक रास्ता है।
 
-## उपयोग के मामले
+- यह flexibility और open technologies बनाए रखता है।
+- यह project delays, technical debt और maintenance overhead को कम करने में मदद करता है।
+- यह किसी fixed UI layer या vendor lock-in पर निर्भर नहीं करता।
 
-Refine खास तौर पर data-intensive applications के लिए उपयोगी है, जैसे admin panels, dashboards, internal tools और B2B CRUD flows.
+## उपयोग के सामान्य मामले
 
-## मुख्य विशेषताएँ
+**Refine** खास तौर पर data-intensive applications में अच्छा काम करता है:
 
-- App behavior को समझने के लिए Devtools.
-- REST API, GraphQL, NestJS CRUD, Airtable, Strapi, Supabase, Hasura, Appwrite, Firebase, Nestjs-Query और Directus जैसे connectors.
-- Next.js और Remix के साथ SSR support.
-- API structure से CRUD UI generation.
-- TanStack Query के ज़रिए state management और mutations.
-- Auth, permissions, notifications, realtime और audit logs के लिए providers.
+- admin panels
+- operational dashboards
+- internal tools
+- B2B CRUD workflows
 
-## आगे क्या पढ़ें
+## मुख्य सुविधाएं
 
-[Quick Start](/core/docs/getting-started/quickstart/) पर जाएँ या [Tutorial](/core/tutorial) से शुरुआत करें।
+- Devtools के जरिए app behavior को inspect करना
+- REST API, GraphQL, NestJS CRUD, Airtable, Strapi, Supabase, Hasura और Appwrite जैसे connectors
+- Next.js और Remix के साथ SSR support
+- API structure से CRUD UI flows बनाना
+- data, auth, notifications, realtime और audit जैसे providers
+
+## कम्युनिटी
+
+Refine की community सक्रिय है। आप Discord, GitHub Discussions और contribution guides के जरिए सहायता ले सकते हैं या project में योगदान कर सकते हैं।
+
+## आगे क्या करें
+
+अपना पहला project शुरू करने के लिए [Quick Start Guide](/core/docs/getting-started/quickstart/) देखें, या सीधे [Tutorial](/core/tutorial) पर जाएं और एक पूर्ण CRUD app बनाते हुए सीखें।
