@@ -1,27 +1,31 @@
 ---
-title: "Tables और Lists | Refine v5"
+title: "Tables गाइड | Refine v5"
 display_title: "Tables"
 sidebar_label: "Tables"
-description: "Refine के साथ tables, lists, filters, sorting और pagination बनाएँ।"
+description: "Refine में useTable, pagination, filtering और sorting patterns का Hindi परिचय।"
 ---
 
-Tables और lists API data को उपयोगी interface में बदलते हैं। Refine ऐसे hooks देता है जो pagination, filters, sorting और loading state को data provider से जोड़ते हैं।
+Data-intensive applications में tables records को पढ़ने, filter करने और manage करने का प्राथमिक तरीका होती हैं। Refine की table integration इन common behaviors को reusable बनाती है।
 
-## Lists
+## useTable
 
-`useTable` और `useList` UI integrations या custom components के साथ list views बनाने के लिए आधारभूत hooks हैं।
+`useTable` hook listing flows के लिए state और fetching logic को संभालता है। इसके नीचे `useList` का उपयोग होता है, लेकिन API shape table-focused रहती है।
 
-```tsx
-const table = useTable({
-  resource: "products",
-  pagination: { pageSize: 10 },
-});
-```
+यह hook sorting, filtering और pagination state को data provider तक pass करता है ताकि server-side या client-side behavior implement किया जा सके।
 
-## Filters और sorting
+## UI library support
 
-Filters और sorters को ऐसे parameters में बदला जाता है जिन्हें data provider API तक भेजता है। इससे backend communication UI layer से अलग रहता है।
+Refine कई popular table implementations के साथ integrate कर सकता है:
 
-## CRUD actions
+- TanStack Table
+- Ant Design Table
+- Material UI DataGrid
+- Mantine और Chakra UI integrations
 
-Lists को create, edit, show और delete actions से जोड़ा जा सकता है। इन actions में permissions और i18n labels दोनों शामिल किए जा सकते हैं।
+## Pagination
+
+Pagination के लिए `currentPage`, `pageSize` और `mode` जैसे options उपयोग किए जाते हैं। `mode` यह तय करता है कि pagination server-side होगी, client-side होगी या बंद रहेगी।
+
+## Filtering और sorting
+
+`filters` और `sorters` state के जरिए complex queries बनाना संभव है। इन states को hook APIs के जरिए बदला जा सकता है और provider इनका उपयोग API requests तैयार करने में करता है।
