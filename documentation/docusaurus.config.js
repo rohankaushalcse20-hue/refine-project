@@ -52,6 +52,7 @@ const siteConfig = {
       "zh-CN",
       "ar",
       "id",
+      "tr",
     ],
     localeConfigs: {
       de: {
@@ -98,6 +99,11 @@ const siteConfig = {
         label: "Bahasa Indonesia",
         direction: "ltr",
         htmlLang: "id-ID",
+      },
+      tr: {
+        label: "Türkçe",
+        direction: "ltr",
+        htmlLang: "tr-TR",
       },
       ru: {
         label: "Русский",
