@@ -1,0 +1,34 @@
+{
+  "theme.ErrorPageContent.title": {
+    "message": "Đã xảy ra lỗi trên trang này.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.NotFound.title": {
+    "message": "Không tìm thấy trang",
+    "description": "The title of the 404 page"
+  },
+  "theme.NotFound.p1": {
+    "message": "Không tìm thấy trang được yêu cầu.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Quay lại đầu trang",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Trang chủ",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} mục",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Phân trang danh sách blog",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Phân trang bài viết blog",
+    "description": "The ARIA label for the blog posts pagination"
+  }
+}
