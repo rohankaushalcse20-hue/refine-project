@@ -55,6 +55,7 @@ const siteConfig = {
       "tr",
       "it",
       "nl",
+      "pl",
     ],
     localeConfigs: {
       de: {
@@ -116,6 +117,11 @@ const siteConfig = {
         label: "Nederlands",
         direction: "ltr",
         htmlLang: "nl-NL",
+      },
+      pl: {
+        label: "Polski",
+        direction: "ltr",
+        htmlLang: "pl-PL",
       },
       ru: {
         label: "Русский",
