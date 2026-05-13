@@ -1,0 +1,34 @@
+{
+  "theme.ErrorPageContent.title": {
+    "message": "Na tej stronie wystąpił błąd.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.NotFound.title": {
+    "message": "Nie znaleziono strony",
+    "description": "The title of the 404 page"
+  },
+  "theme.NotFound.p1": {
+    "message": "Nie znaleziono żądanej strony.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Wróć na górę",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Strona główna",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} elementów",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Paginacja listy bloga",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Paginacja wpisów na blogu",
+    "description": "The ARIA label for the blog posts pagination"
+  }
+}
