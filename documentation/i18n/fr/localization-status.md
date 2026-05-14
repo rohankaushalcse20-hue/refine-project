@@ -1,20 +1,21 @@
 # Couverture de localisation en français
 
-Cette note décrit le périmètre initial de la localisation française.
+Cette note décrit la couverture française actuellement disponible et les zones à prioriser lors des prochaines itérations.
 
 ## Inclus
 
-- Configuration du locale `fr` dans Docusaurus.
-- Messages UI de base du thème.
-- Pages principales de démarrage.
-- Guides concepts, routing, data fetching, authentification, autorisation, formulaires, tables, notifications et i18n.
-- Introduction du tutoriel.
+- Configuration du locale `fr` dans Docusaurus avec libellé, direction et `htmlLang`.
+- Messages UI de base du thème Docusaurus.
+- Pages principales de démarrage : vue d'ensemble et démarrage rapide.
+- Guides concepts pour data fetching, routing, authentification, autorisation, formulaires, tables, notifications et i18n.
+- Référence `i18nProvider` localisée.
+- Page d'entrée du tutoriel, introduction des fondamentaux, setup, data fetching, authentification et routing avec React Router.
 - READMEs français pour les exemples i18n et Material UI.
-- Résumés français pour les packages principaux.
+- Résumés français pour `@refinedev/core`, `@refinedev/cli`, `@refinedev/react-hook-form` et `@refinedev/simple-rest`.
 
 ## À compléter
 
-- Traduire le reste de la référence API.
-- Étendre les exemples par framework UI.
-- Vérifier SEO, captures et textes longs.
-- Valider la navigation complète du site en `fr` pendant le build docs.
+- Traduire davantage de pages tutorial détaillées pour listes, formulaires, tables et UI libraries.
+- Étendre les exemples par framework UI et par backend provider.
+- Localiser plus de READMEs de packages data providers et router providers.
+- Vérifier SEO, captures, textes longs et navigation complète pendant un build docs en `fr`.
