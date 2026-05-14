@@ -1,23 +1,29 @@
-# Next.js router provider for refine
+<div align="center" style="margin: 30px;">
+    <a href="https://refine.dev/">
+    <img alt="refine logo" src="https://refine.ams3.cdn.digitaloceanspaces.com/readme/refine-readme-banner.png">
+    </a>
+</div>
+<br/>
+<div align="center">refine は、エンタープライズ Web アプリケーションを構築する開発者向けの、オープンソースでヘッドレスな React フレームワークです。
 
-`@refinedev/nextjs-router` は、Next.js の routing を Refine の router provider として使うための package です。Next.js アプリケーションで resource ベースの遷移や URL 生成を Refine と連携できます。
+CRUD 操作で繰り返し発生する作業を減らし、**authentication**、**access control**、**routing**、**networking**、**state management**、**i18n** など、重要なプロジェクト要素に業界標準の解決策を提供します。
 
-## インストール
+</div>
+<br/>
 
-```sh
-npm install @refinedev/nextjs-router
-```
+<div align="center">
+  <sub>Created by <a href="https://refine.dev">refine</a></sub>
+</div>
 
-## できること
+## 概要
 
-- Refine の routing hooks を Next.js の routing に接続する。
-- `resources` の list、show、create、edit path を Next.js アプリ内で扱う。
-- 認証、redirect、navigation を Next.js 構成に合わせて実装する。
+[refine](https://refine.dev/) は **headless by design** で、スタイリングとカスタマイズの自由度を高く保てます。利便性のために [Ant Design](https://ant.design/)、[Material UI](https://mui.com/material-ui/getting-started/overview/)、[Mantine](https://mantine.dev/)、[Chakra UI](https://chakra-ui.com/) とのすぐ使える統合も提供しています。
 
-## 使いどころ
+refine は REST API、[GraphQL](https://graphql.org/)、[Airtable](https://www.airtable.com/)、[Strapi](https://strapi.io/)、[Supabase](https://supabase.com/)、[Firebase](https://firebase.google.com/)、[Directus](https://directus.io/) など、15 種類以上のバックエンドサービス向けコネクターを備えています。
 
-Next.js を使った管理画面、ダッシュボード、内部ツールで、Refine の routing 連携を使いたい場合に適しています。
+[refine の詳細はドキュメントを参照してください&#8594](https://refine.dev/docs/)
+[refine のチュートリアルへ進む&#8594](https://refine.dev/docs/tutorial/introduction/index/)
 
-## 詳細
+## ドキュメント
 
-詳細な利用方法は [refine router provider documentation](https://refine.dev/docs/core/providers/router-provider/) を参照してください。
+より詳しい情報と使い方は、[refine router provider documentation](https://refine.dev/docs/core/providers/router-provider/) を参照してください。
