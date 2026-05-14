@@ -43,6 +43,7 @@ const siteConfig = {
     locales: [
       "en",
       "es",
+      "fr",
       "ru",
       "hi",
       "de",
@@ -69,6 +70,11 @@ const siteConfig = {
         label: "Español",
         direction: "ltr",
         htmlLang: "es-ES",
+      },
+      fr: {
+        label: "Français",
+        direction: "ltr",
+        htmlLang: "fr-FR",
       },
       hi: {
         label: "हिन्दी",
