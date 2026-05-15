@@ -11,8 +11,9 @@ Esta nota registra la cobertura actual de la localización al español y las amp
 - Guías adicionales sobre despliegue, bibliotecas UI y telemetría.
 - Introducción del tutorial y primer índice del tutorial esencial.
 - Páginas de ejemplos para Auth0, Google Auth, Hasura, Strapi v4, múltiples data providers, i18n y Ably.
+- Páginas de ejemplos para Airtable, Appwrite, Directus, NestJS Query, NestJSX CRUD, Supabase, Keycloak, Kinde, Material UI auth, Next.js, React Toastify y Refine Themes con Material UI.
 - READMEs en español para ejemplos de i18n y Material UI.
-- Resúmenes en español para paquetes `core`, `simple-rest`, `cli`, `inferencer`, `graphql`, `hasura`, `medusa` y `strapi-v4`.
+- Resúmenes en español para paquetes `core`, `simple-rest`, `cli`, `inferencer`, `graphql`, `hasura`, `medusa`, `strapi-v4`, Devtools internos, `live-previews`, `nestjsx-crud`, `refine-ui`, `remix-router` y `ui-tests`.
 - Índice en español de la lista de paquetes del ecosistema Refine.
 
 ## Pendiente
