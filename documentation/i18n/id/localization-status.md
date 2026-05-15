@@ -11,6 +11,7 @@ Dokumen ini merangkum cakupan locale `id` saat ini dan slice yang ditambahkan da
 - Halaman landing tutorial dan pendahuluan essentials
 - README Bahasa Indonesia untuk contoh i18n dan template Material UI
 - README ringkas Bahasa Indonesia untuk package `core` dan `simple-rest`
+- README Bahasa Indonesia untuk integrasi package umum: `ably`, `airtable`, `antd`, `appwrite`, `chakra-ui`, `cli`, `codemod`, `create-refine-app`, `devtools`, `graphql`, `hasura`, `inferencer`, `kbar`, `mantine`, `medusa`, `mui`, `nestjs-query`, `nextjs-router`, `react-hook-form`, dan `react-router`
 
 ## Kandidat slice berikutnya
 
