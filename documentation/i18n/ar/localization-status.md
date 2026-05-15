@@ -11,10 +11,11 @@
 - الصفحة الافتتاحية للـ tutorial ومقدمة الأساسيات
 - ملفات README العربية لأمثلة i18n وMaterial UI template
 - ملفات README المختصرة لحزمتي `core` و`simple-rest`
+- ملفات README عربية مختصرة لحزم data providers وUI integrations وrouter/form/dev tooling الشائعة مثل `@refinedev/ably` و`@refinedev/antd` و`@refinedev/mui` و`@refinedev/react-router`
 
 ## الشرائح التالية المرشحة
 
 - مزيد من أدلة المفاهيم المتقدمة وصفحات مرجع الـ API
-- README لأمثلة UI frameworks وdata providers إضافية
+- README لأمثلة UI frameworks وdata providers إضافية لم تُغطَّ بعد
 - مراجعة عرض النصوص الطويلة في الوضع RTL داخل docs navigation
 - تشغيل docs build على locale `ar` للتحقق من المسارات والتنقل
