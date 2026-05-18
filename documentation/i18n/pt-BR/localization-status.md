@@ -9,6 +9,10 @@ Esta nota registra o estado atual da localização em pt-BR e as áreas adiciona
 - Guias conceituais para general concepts, routing, data fetching, autenticação, autorização, formulários, tabelas, notificações e i18n.
 - Índice de pacotes para orientar leitoras e leitores sobre os principais módulos do ecossistema.
 - Introdução ao tutorial para quem prefere começar com uma aplicação CRUD guiada, incluindo fundamentos, setup, data fetching, autenticação, routing com React Router e próximos passos com Ant Design.
+- Exemplos de controle de acesso com Casbin, Cerbos e Permify.
+- Exemplos de auth provider com Auth0, Google Auth, Keycloak, Kinde e OTP Login.
+- Exemplos de autenticação por UI framework para Ant Design, Chakra UI, Headless, Mantine e Material UI.
+- Exemplos de data provider para Airtable, Appwrite, Directus, Hasura, Multiple Providers e Supabase.
 - READMEs em pt-BR para os exemplos `i18n-react`, `i18n-nextjs` e `template-material-ui`.
 - Resumos em pt-BR para os pacotes `core` e `simple-rest`.
 
@@ -16,6 +20,6 @@ Esta nota registra o estado atual da localização em pt-BR e as áreas adiciona
 
 - Traduzir as unidades restantes do tutorial, começando por listagens, formulários, tabelas, login/logout e resource definitions.
 - Traduzir mais páginas de referência e integrações específicas de providers.
-- Ampliar a cobertura de exemplos por framework de UI e backend.
+- Ampliar a cobertura de exemplos por framework de UI e backend, com foco em formulários, tabelas, import/export e upload.
 - Revisar metadados, imagens e trechos longos durante um build completo da documentação.
 - Validar a navegação inteira do locale `pt-BR` em um ciclo dedicado de docs.
