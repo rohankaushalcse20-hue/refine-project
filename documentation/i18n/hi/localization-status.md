@@ -11,7 +11,7 @@
 - tutorial landing page और essentials intro
 - tutorial essentials: पहला app, data fetching intro, single record fetch और record update
 - tutorial authentication: unit intro और protected content flow
-- examples: Auth0, Google Auth, Hasura, Multiple Providers, i18n React और i18n Next.js
+- examples: access control providers, Auth0, Google Auth, Keycloak, Kinde, OTP login, Hasura, Multiple Providers, authentication UI examples, Ant Design forms, Ant Design tables, Calendar, i18n React और i18n Next.js
 - packages: package index और Airtable data provider
 - routing/i18n/data/notification reference pages: `<Link />`, `useBack`, `useLink`, `useTranslation`, `useDataProvider`, `useApiUrl`, `useNotification`
 - Hindi companion READMEs for i18n examples, Material UI template, `@refinedev/core` और `@refinedev/simple-rest`
@@ -20,6 +20,6 @@
 
 - tutorial data-fetching list, forms, tables और बाकी authentication pages का अनुवाद
 - API reference और UI integration docs के अधिक हिस्सों का अनुवाद
-- अधिक data provider, auth provider और realtime examples जोड़ना
+- अधिक data provider, realtime, upload और theme examples जोड़ना
 - site navigation, long text wrapping और SEO metadata की समीक्षा
 - Hindi docs build path को full docs validation के दौरान जांचना
