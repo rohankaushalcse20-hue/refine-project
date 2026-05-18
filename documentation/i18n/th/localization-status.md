@@ -9,12 +9,13 @@
 - หน้า getting started หลัก
 - คู่มือ general concepts, routing, data fetching, authentication, authorization, forms, tables, notifications และ i18n
 - หน้า landing ของ tutorial และ essentials intro
+- เอกสารตัวอย่าง Docusaurus สำหรับ access control, auth provider, data provider, live provider และ notification provider
 - README ภาษาไทยสำหรับตัวอย่าง i18n และ template Material UI
 - สรุป README ภาษาไทยสำหรับ package `core` และ `simple-rest`
 
 ## รายการที่เหมาะสำหรับ slice ถัดไป
 
 - หน้า advanced tutorial และ API reference เพิ่มเติม
-- README สำหรับตัวอย่าง UI framework และ data provider อื่น ๆ
+- เอกสารตัวอย่าง Docusaurus สำหรับ forms, tables, themes, uploads และ integrations อื่น ๆ
 - ตรวจ metadata SEO และข้อความยาวบน viewport แคบ
 - รัน docs build สำหรับ locale `th` เพื่อตรวจ route และ navigation
