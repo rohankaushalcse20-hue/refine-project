@@ -12,10 +12,11 @@
 - i18n examples와 Material UI template용 한국어 README
 - `core`와 `simple-rest` 패키지용 한국어 요약 README
 - 인증, data provider, live provider, form, table, upload, Inferencer, Remix 예제용 한국어 README 추가
+- base UI, customization layout/theme, command palette, Ant Design field hook 예제용 한국어 README 추가
 
 ## 다음 후보
 
 - 더 많은 고급 가이드와 API 페이지 번역
-- 고급 UI framework별 example 확장
+- 고급 UI framework별 example과 field hook 변형 확장
 - 좁은 화면에서 긴 문장과 SEO metadata 검토
 - `ko` locale 기준으로 문서 build를 실행해 전체 탐색 경로 점검
