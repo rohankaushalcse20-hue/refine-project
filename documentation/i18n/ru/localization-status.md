@@ -11,6 +11,8 @@
 - Введение tutorial.
 - Русские READMEs для i18n examples и Material UI template.
 - Русские summaries для основных packages.
+- Дополнительные package summaries для devtools, routing, data providers, UI registry и internal UI packages.
+- Example docs для React Toastify, Ably, i18n React и i18n Next.js.
 
 ## Дальше
 
