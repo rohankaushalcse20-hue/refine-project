@@ -14,12 +14,16 @@ Esta nota registra la cobertura actual de la localización al español y las amp
 - Páginas de ejemplos para Airtable, Appwrite, Directus, NestJS Query, NestJSX CRUD, Supabase, Keycloak, Kinde, Material UI auth, Next.js, React Toastify y Refine Themes con Material UI.
 - READMEs en español para ejemplos de i18n y Material UI.
 - READMEs en español para ejemplos de auth providers, data providers, realtime, formularios, tablas, uploads, Inferencer, React Toastify y Remix con Material UI.
+- Páginas de ejemplos para control de acceso con Casbin, Cerbos y Permify.
+- Páginas de ejemplos para OTP Login y autenticación con Ant Design, Chakra UI, Headless y Mantine.
+- Páginas de ejemplos para Elide, Sanity y Strapi data providers.
+- Páginas de ejemplos para formularios Ant Design, tablas Ant Design y upload Base64.
 - Resúmenes en español para paquetes `core`, `simple-rest`, `cli`, `inferencer`, `graphql`, `hasura`, `medusa`, `strapi-v4`, Devtools internos, `live-previews`, `nestjsx-crud`, `refine-ui`, `remix-router` y `ui-tests`.
 - Índice en español de la lista de paquetes del ecosistema Refine.
 
 ## Pendiente
 
 - Traducir más guías de referencia avanzadas y páginas de API.
-- Ampliar la cobertura de ejemplos por framework UI y por proveedor backend.
+- Ampliar la cobertura de ejemplos por framework UI, proveedor backend y flujos de upload.
 - Revisar capturas, metadatos SEO y textos largos en pantallas estrechas.
 - Validar la navegación completa del sitio en `es` durante un build de documentación.
