@@ -11,6 +11,11 @@ Tài liệu này tóm tắt mức độ phủ hiện tại của locale `vi` và
 - Trang landing của tutorial và phần giới thiệu essentials
 - README tiếng Việt cho ví dụ i18n và template Material UI
 - Tóm tắt README tiếng Việt cho packages `core` và `simple-rest`
+- Ví dụ tiếng Việt cho access-control với Casbin, Cerbos và Permify
+- Ví dụ tiếng Việt cho audit log provider và audit log với Ant Design
+- Ví dụ tiếng Việt cho CSV import/export trong Ant Design, Mantine và Material UI
+- Ví dụ tiếng Việt cho Refine Themes trong Ant Design, Chakra UI, Mantine và Material UI
+- Ví dụ tiếng Việt cho Ant Design forms và tables
 
 ## Ứng viên cho slice tiếp theo
 
