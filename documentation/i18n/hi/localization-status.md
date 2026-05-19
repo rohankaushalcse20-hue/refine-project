@@ -13,7 +13,10 @@
 - tutorial authentication: unit intro और protected content flow
 - examples: access control providers, Auth0, Google Auth, Keycloak, Kinde, OTP login, data providers, React Toastify, Ably live provider, Next.js और Remix examples, authentication UI examples, Ant Design forms, Ant Design tables, Calendar, i18n React और i18n Next.js
 - packages: package index और Airtable data provider
-- routing/i18n/data/notification reference pages: `<Link />`, `useBack`, `useLink`, `useTranslation`, `useDataProvider`, `useApiUrl`, `useNotification`
+- routing/i18n/data/notification reference pages: `<Link />`, `useBack`, `useLink`, `useGo`, `useGetToPath`, `useNavigation`, `useParsed`, `useResourceParams`, `useTranslation`, `useDataProvider`, `useApiUrl`, `useInvalidate`, `useNotification`
+- React Router v6-to-v7 migration note
+- package introductions: TanStack Table, React Hook Form और Inferencer
+- data live previews: `useList`, `useInfiniteList` और `useSelect` basic flows
 - Hindi companion READMEs for i18n examples, Material UI template, `@refinedev/core` और `@refinedev/simple-rest`
 
 ## अगला काम
